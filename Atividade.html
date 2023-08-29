@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Semântico</title>
+</head>
+<body>
+    <header>
+        <h1>Explorando as Tags Semânticas do HTML</h1>
+        <nav>
+            <ul>
+                <li><a href="#introducao">Introdução</a></li>
+                <li><a href="#tags">Tags e suas respectivas utilizações</a></li>
+            </ul>
+        </nav>
+    </header>    
+
+    <section id="introducao">
+        <article>
+            <h2>Vamos entender o que é o HTML Semântico</h2>
+            <p>Quando falamos de HTML Semântico, estamos falando de tags que conseguem passar uma informação com um significado específico para o conteúdo interpretado pelo navegador, independendo apenas do texto dentro da tag para se entender o que há naquela parte do site.</p>
+        </article>
+    </section>
+
+    <main id="tags">
+    
+        <h2>Aqui veremos algumas Tags e usas respectivas utilizações</h2>
+
+        <p>A ideia é facilitar o entendimento na hora da utilização das Tags.</p>
+        
+        <nav>
+            <ul>
+                <li><a href="#header">&lt;header&gt;</a></li>
+                <li><a href="#article">&lt;article&gt;</a></li>
+                <li><a href="#aside">&lt;aside&gt;</a></li>
+                <li><a href="#footer">&lt;footer&gt;</a></li>
+                <li><a href="#blockquote">&lt;blockquote&gt;</a></li>
+                <li><a href="cite">&lt;cite&gt;</a></li>
+                <li><a href="#details">&lt;details&gt;</a></li>
+                <li><a href="#figure">&lt;figure&gt;</a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </nav>
+                
+        <section id="header">
+            <p>Uma das mais utilizadas é o &lt;header&gt; Cabeçalho, onde temos um grupo de suporte introdutório ou navegacional. Pode conter alguns elementos de cabeçalho mas também outros elementos como um logo, seções de cabeçalho, formulário de pesquisa, e outros.</p>
+        </section>
+
+        <section id="article">
+            <p>O &lt;article&gt; representa um artigo com composição independente em um documento. Normalmente vemos muito sua utilização em postagem no fórum, blog e notícias.
+        </section>   
+        
+        <section id="aside">
+            <p>Quando usamos &lt;anside&gt; estamos representando uma seção da página que pode ser considerada separada do conteúdo.</p>
+        </section>
+        
+        <section id="footer">
+            <p>O &lt;footer&gt; representa um rodapé para o seu conteúdo de seção mais próximo.Normalmente um rodapé contém informações sobre o autor da seção de dados, direitos autorais ou links para documentos relacionados.</p>
+        </section>
+
+        <section id="blockquote">
+            <p>A tag &lt;blockquote&gt; indica que o texto incluído é uma longa citação.</p>
+        </section>
+
+        <section id="cite">
+            <p> Quando usamos o &lt;cite&gt; citamos a fonte da citação utilizada anteriormente.</p>
+        </section>
+
+        <section id="details">
+            <details>
+                <summary>Visualize o que a tag &lt;details&gt; faz</summary>
+                <p>A tag &lt;details&gt; é específica para detalhes adicionais que o usuário pode abrir e fechar sob demanda.</p>
+            </details>
+        </section>
+    
+        <section id="figure">         
+            <p>O &lt;figure&gt; representa conteúdo autocontido, potencialmente com uma legenda opcional, que é especificada usando o &lt;figcaption&gt; elemento. A figura, sua legenda e seu conteúdo são referenciados como uma única unidade.</p>
+            <figure>
+                <img src="" alt="">
+            </figure>
+
+            <p><strong>Ou</strong></p>
+
+            <figure>
+                <img src="" alt="">
+                <figcaption> </figcaption>
+            </figure>
+
+
+        </section>
+    </main>
+    
+       
+    <aside>Aqui você conseguirá visualizar o que é um &lt;anside&gt;</aside>
+    
+    <blockquote>
+        Um dos grandes motivos para nos preocuparmos com a semântica que usamos no site vem das ferramentas de indexação de buscadores, que colocam os sites mais semânticos e estruturados como prioridade nas respostas das buscas. A outra grande preocupação é com as ferramentas de acessibilidade, que permitem que pessoas com deficiência, por exemplo pessoas cegas, consigam usar um site através de softwares leitores de tela de maneira padronizada e sem problemas.
+        Uma coisa que precisamos lembrar é que devemos escolher as tags pelo o que elas representam e não como elas são mostradas na tela do navegador. Estilização deve ficar no CSS e estrutura no HTML.
+        <cite>
+            <a href="https://www.alura.com.br/apostila-html-css-javascript/09CA-semantica-em-primeiro-lugar#:~:text=Estas%20tags%20s%C3%A3o%20chamadas%20tamb%C3%A9m,h%C3%A1%20naquela%20parte%20do%20site.">Link do site utilizado para a citação</a>
+        </cite>
+    </blockquote>
+    
+    <footer>Criador do Conteúdo: Ingridy Estefany</footer>
+   
+</body>
+</html>

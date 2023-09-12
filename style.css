@@ -1,5 +1,32 @@
-h1 { 
-    color:rgb(255, 51, 0);
+body {
+
+}
+
+.titulo-de-pagina { 
+    color: firebrick;
     line-height: 2;
     font-weight: bold;
+    font-size: 20pt;
+}
+
+.titulo-de-artigo { 
+    color:rgb(17, 0, 255);
+    line-height: 2;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+.subtitulo-de-pagina {
+    color:rgb(230, 100, 100);
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+
+.titulo-de-secao {
+    color:rgb(243, 147, 83);
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 20pt;
 }

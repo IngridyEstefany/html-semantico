@@ -20,6 +20,41 @@ margin-bottom: 20px;
     padding-top: 0;
 }
 
+/* Alterei daqui */
+
+.titulo-de-artigo:first-child + .paragrafo-de-artigo {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+   } 
+
+.paragrafo-de-artigo + .paragrafo-de-artigo:last-child {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+   } 
+
+.paragrafo-de-artigo ~ .paragrafo-de-artigo {
+    border-radius: 0;
+}
+
+.titulo-de-artigo + .paragrafo-de-artigo:nth-last-of-type(1) {
+    border-radius: 20px;
+   } 
+
+/* Até aqui */
+
+
+/* RESOLUÇÃO DO PROFESSOR VERIFICAR */
+/* .titulo-de-artigo + .paragrafo-de-artigo {
+    border-radius: 20px 20px 0 0;
+}
+
+.paragrafo-de-artigo:last-of-type {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+} */
+/* RESOLUÇÃO DO PROFESSOR VERIFICAR */
+
+
 
 .titulo-de-pagina { 
     color: #051367;
